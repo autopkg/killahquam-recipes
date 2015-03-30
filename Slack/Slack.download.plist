@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-	<true/>
 	<key>Description</key>
 	<string>Downloads latest Slack.</string>
 	<key>Identifier</key>
@@ -39,6 +37,8 @@
 			<string>CodeSignatureVerifier</string>
 			<key>Arguments</key>
 			<dict>
+				<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+				<true/>
 				<key>input_path</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.app</string>
 				<key>requirement</key>
