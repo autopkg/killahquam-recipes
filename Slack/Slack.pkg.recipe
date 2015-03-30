@@ -6,7 +6,7 @@
 	<string>Downloads the latest version of Slack and makes a pkg of it
 </string>
 	<key>Identifier</key>
-	<string>com.github.killahquam.pkg.Slack</string>
+	<string>com.github.killahquam.pkg.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
