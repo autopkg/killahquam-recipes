@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it
-</string>
+	<string>Downloads the latest version of Slack and makes a pkg of it</string>
 	<key>Identifier</key>
 	<string>com.github.killahquam.pkg.slack</string>
 	<key>Input</key>
@@ -12,7 +11,7 @@
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>PKG_ID</key>
-		<string>com.Slack</string>
+		<string>com.tinyspeck.slackmacgap</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
