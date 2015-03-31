@@ -12,6 +12,8 @@
 		<string>Slack</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://slack.com/ssb/download-osx</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<true/>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -46,8 +48,6 @@
 			<string>CodeSignatureVerifier</string>
 			<key>Arguments</key>
 			<dict>
-				<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-				<true/>
 				<key>input_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME%.app</string>
 				<key>requirement</key>
