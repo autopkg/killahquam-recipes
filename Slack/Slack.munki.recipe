@@ -66,7 +66,7 @@
 				<key>input_plist_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg/Slack.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
-				<string>CFBundleVersion</string>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 		</dict>
 		<dict>
