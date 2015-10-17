@@ -22,6 +22,10 @@
 			<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
 			<key>display_name</key>
 			<string>Slack</string>
+			<key>category</key>
+			<string>Communication</string>
+			<key>developer</key>
+			<string>Slack</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
