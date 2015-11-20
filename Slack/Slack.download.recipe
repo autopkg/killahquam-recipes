@@ -48,6 +48,8 @@
 			<dict>
 				<key>archive_path</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.zip</string>
+				<key>purge_destination</key>
+			    	<true/>
 			</dict>
 		</dict>
 		<dict>
