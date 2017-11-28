@@ -13,7 +13,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://go.microsoft.com/fwlink/?LinkID=620882</string>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
