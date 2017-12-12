@@ -34,28 +34,24 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>Processor</key>
-			<string>Unarchiver</string>
 			<key>Arguments</key>
 			<dict>
-				<key>archive_path</key>
-				<string>%pathname%</string>
 				<key>destination_path</key>
-				<string>%pkgroot%/Applications/</string>
-				<key>purge_destination</key>
-				<true/>
+				<string>%pkgroot%/Applications/Slack.app</string>
+				<key>source_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/Slack.app</string>
 			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
 		</dict>
 		<dict>
-			<key>Processor</key>
-			<string>Versioner</string>
 			<key>Arguments</key>
 			<dict>
-				<key>input_plist_path</key>
-				<string>%pkgroot%/Applications/Slack.app/Contents/Info.plist</string>
-				<key>plist_version_key</key>
-				<string>CFBundleShortVersionString</string>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg</string>
 			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
