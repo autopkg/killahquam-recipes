@@ -2,38 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>
-This AutoPkg recipe was created using JSSRecipeCreator: 
-https://github.com/sheagcraig/JSSRecipeCreator
-
-It is meant to be used with JSSImporter: 
-https://github.com/sheagcraig/JSSImporter
-
-For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
-https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it
- Then, uploads to the JSS.</string>
+	<string>Downloads the current release version of Slack and then uploads to the JSS</string>
 	<key>Identifier</key>
 	<string>com.github.killahquam.jss.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Apps</string>
-		<key>DESCRIPTION</key>
-		<string></string>
-		<key>ICON</key>
-		<string>%RECIPE_DIR%/Slack.png</string>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Apps</string>
+		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SlackPolicyTemplate.xml</string>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go..</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Slack.png</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.0</string>
+	<string>0.6.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.killahquam.pkg.slack</string>
 	<key>Process</key>
@@ -47,11 +40,11 @@ https://github.com/homebysix/auto-update-magic</string>
 				<array>
 					<dict>
 						<key>name</key>
-						<string>Slack is outdated</string>
+						<string>%GROUP_NAME%</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/SlackSmartGroupTemplate.xml</string>
+						<string>%GROUP_TEMPLATE%</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
@@ -61,9 +54,9 @@ https://github.com/homebysix/auto-update-magic</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>%DESCRIPTION%</string>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
-				<string>%ICON%</string>
+				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
