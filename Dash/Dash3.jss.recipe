@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Dash and then uploads to the JSS</string>
 	<key>Identifier</key>
-	<string>com.github.killahquam.jss.dash</string>
+	<string>com.github.killahquam.jss.dash3</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
