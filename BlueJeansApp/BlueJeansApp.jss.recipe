@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.gregneagle.pkg.bluejeansapp</string>
+	<string>com.github.homebysix.pkg.BlueJeans</string>
 	<key>Process</key>
 	<array>
 		<dict>
