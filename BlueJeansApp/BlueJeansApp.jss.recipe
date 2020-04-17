@@ -48,7 +48,7 @@
 					</dict>
 				</array>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+				<string>%RECIPE_CACHE_DIR%/%pkgname%.pkg</string>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
