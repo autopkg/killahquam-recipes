@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://slack.com/ssb/download-osx</string>
+		<string>https://slack.com/ssb/download-osx-universal</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
