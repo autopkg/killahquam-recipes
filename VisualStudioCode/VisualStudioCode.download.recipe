@@ -26,6 +26,11 @@
 				<string>%DOWNLOAD_URL%</string>
 				<key>filename</key>
 				<string>%NAME%.zip</string>
+                <key>request_headers</key>
+                <dict>
+                    <key>user-agent</key>
+                    <string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0</string>
+                </dict>
 			</dict>
 		</dict>
 		<dict>
