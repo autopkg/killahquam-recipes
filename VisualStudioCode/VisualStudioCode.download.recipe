@@ -19,6 +19,15 @@
 	<array>
 		<dict>
 			<key>Processor</key>
+			<string>DeprecationWarning</string>
+			<key>Arguments</key>
+			<dict>
+				<key>warning_message</key>
+				<string>The killahquam-recipes repo is being archived after December 13, 2024. Consider switching to alternative VSCode recipes in the valdore86-recipes or moffit-recipes repos.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Processor</key>
 			<string>URLDownloader</string>
 			<key>Arguments</key>
 			<dict>
